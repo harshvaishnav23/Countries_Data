@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 20px 0;
+    background-color: rgb(209, 207, 207);
+}
+
+.heading h2{
+    font-size: 50px;
+    color: orange;
+}
+
+
+.heading h3{
+    font-size: 22px;
+    color: grey;
+}
+
+.searcHing{
+    padding: 20px 0;
+}
+
+.form-control{
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(255, 235, 239);
+    border: none;
+    margin-bottom: 35px;
+}
+
+.btnInfo button{
+    background-color: orange;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 40px;
+    font-size: 20px;
+}
+.btnInfo i{
+    color: orange;
+}
+
+.flagCard figure{
+    height: 400px;
+    margin: 0;
+}
+
+.cardImg{
+    width: 100%;
+    height: 50%;
+    display: block;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+figcaption h2{
+    color: orange;
+    font-size: 30px;
+}
+figcaption p{
+    font-size: 18px;
+}
+
+.flagInfo span{
+    color: gray;
+    font-weight: bold;
+}
+
+.card.flagCard{
+    transition: all .2s ease-in-out;
+    transform: scale(0.9);
+}
+
+.card.flagCard:hover{
+    box-shadow: 2px 2px;
+    transform: scale(1);
+}
